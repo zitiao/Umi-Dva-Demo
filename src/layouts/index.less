@@ -1,0 +1,113 @@
+@import "~antd/dist/antd.less";
+@primary-color: #22288b;
+@normal-fontSize: 13px;
+
+// antd 样式覆盖
+.ant-row{margin-bottom: 0px!important;}
+.ant-collapse-content-box{padding: 0!important;}
+.ant-modal-body{padding: 10px 24px;}
+.ant-tabs-bar{margin-bottom: 0px}
+td {white-space: normal;padding: 4px!important;border:1px solid #e8e8e8!important;position: relative!important;}
+th{background-color: rgba(34, 40, 139, 1)!important;color:white!important;text-align: center!important;border:1px solid white!important;padding: 5px!important;}
+tr:hover td, .ant-table-row-hover td{background-color:#e6f7ff!important;}
+body{height: auto;}
+
+// 通用样式
+.verticle{transform: translate(-50%, -50%);top: 50%;left: 50%;position: relative;}
+.verticleY{transform: translate(-50%);top: 50%;position: relative;}
+.none{display: none!important;}
+.shadow{box-shadow: 3px 5px 13px -3px gray;}
+.floatLeft{float:left;}
+.floatRight{float:right;}
+.icon{margin-right: 5px;}
+.marginLeft{margin-left: 10px!important;}
+.marginRight{margin-right: 10px!important;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.singleLine{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+
+	.appContent{
+		padding:0 50px;
+		margin-top:64px; 
+
+		.appContent_title{
+			background-color: white;
+			padding: 10px;
+			margin-bottom: 0;
+			border-bottom: 1px solid #22288b;
+			color:#22288b;
+		}
+	}
+
+// .app{
+// 	// height: 100%!important;
+// 	background-color:white;
+// 	h2{font-size: 16px}
+
+// 	.tablePanal{
+// 		background-color:white;
+// 		padding:10px;
+
+// 		.tablePanal_fullScreen_on{
+// 			background-color:white;
+// 			padding:10px;
+// 			position:fixed;
+// 			width:100%;
+// 			height:100%;
+// 			z-index: 10000;
+// 			top: 0;
+// 			left: 0;
+// 			overflow: auto;
+// 		}
+
+// 		.tablePanal_fullScreenTitleIcon{
+// 			float:right;
+// 			cursor:pointer;
+// 			margin:10px;
+// 		}
+
+// 		.tablePanal_Table{
+// 			margin-top:10px;
+// 			*{font-size: @normal-fontSize;}
+// 			.planStatus{svg{font-size: 22px;}}
+// 			.rangeCell{
+// 				.dangerCell{
+// 					color: red;
+// 					font-weight: bold;
+// 				}
+// 				.warningCell{
+// 					color:#ffca00;
+// 					font-weight: bold;
+// 				}
+
+// 				div{
+// 					margin-left: 10px;
+// 				}
+// 			}
+// 		}
+
+// 		.tablePanal_btnGroup{
+// 			display:inline;
+// 			padding-left: 20px;
+// 		}
+
+// 		.tablePanal_search{
+// 			width: 200px;
+// 			float: right;
+// 		}
+// 	}
+
+// 	.filterPanal{
+// 		padding: 10px;
+// 		border: none;
+// 		background-color: white;
+// 		transition: height 1s;  
+// 		border-radius: 0;    
+// 		*{font-size: @normal-fontSize;}
+// 		.filterPanal_row{
+// 			margin-top: 10px;
+// 		}
+// 		.filterPanal_count{
+// 			margin-left: 5px;
+// 		}
+// 	}
+// }
